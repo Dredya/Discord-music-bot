@@ -1,0 +1,30 @@
+{
+  "name": "nyashko-music",
+  "version": "1.0.0",
+  "description": "Personal Discord music bot (YouTube) - Nyashko music",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "keywords": [
+    "discord",
+    "music",
+    "bot",
+    "youtube"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^14.27.0",
+    "discord-player": "^7.2.0",
+    "discord-player-youtubei": "^3.1.0",
+    "simple-ytdl-core": "^1.1.1",
+    "bgutils-js": "^4.0.3",
+    "googlevideo": "^4.1.1",
+    "dotenv": "^18.0.9"
+  },
+  "allowScripts": {
+    "esbuild@0.27.7": true
+  }
+}
