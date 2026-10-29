@@ -1,4 +1,4 @@
-# Nyashko music — Discord Music Bot
+# Discord Music Bot
 
 A personal Discord bot that plays music from YouTube. Slash commands only, restricted to a single guild.
 
