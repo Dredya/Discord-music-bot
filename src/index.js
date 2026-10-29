@@ -24,7 +24,7 @@ for (const file of fs.readdirSync(commandsDir).filter((f) => f.endsWith('.js')))
   }
 }
 
-client.once('ready', async () => {
+client.once('clientReady', async () => {
   console.log(`[bot] Logged in as ${client.user.tag}`);
 
   // Register the YouTube extractor (discord-player-youtubei).
@@ -34,6 +34,8 @@ client.once('ready', async () => {
   } catch (err) {
     console.error('[bot] Failed to register YouTube extractor:', err);
   }
+
+  console.log('done');
 });
 
 client.on('interactionCreate', async (interaction) => {
